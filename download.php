@@ -33,13 +33,12 @@
             }
         </style>
         <div class="topnav">
-            <img src="advieslab.png" alt="advieslab" align="right">
             <button type="button" class="button" onclick="window.location.href = 'download.php';">Download</button>
             <button type="button" onclick="window.location.href = 'upload.php';" class="button">Upload</button>
         </div>
         <?php
         $myfiles = array_diff(scandir("files"), array('.', '..')); 
-        $sorted = "<div align= \"center\" class=\"output\"> Alle bestanded die zijn ge-upload zijn: <br>";
+        $sorted = "<div align= \"center\" class=\"output\"> All files uploaded: <br>";
         foreach ($myfiles as &$value){
             $sorted .= "<a href=\"files/$value\", download=\"myimage\">$value</a><br>";
         };
