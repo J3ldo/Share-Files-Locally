@@ -1,6 +1,8 @@
 # Share Files Locally
-A website that will make you able to share files locally.  
-This was made as a project for my dad and is just to get him off sharing in the cloud or mail. Because he wanted that.  
-Please note that this is super vulnerable and if you want to host this publicly you need to improve the site.  
+## How to use
+* Git clone the repository.
+* Run the repository with your php server of choice.
+* Open said url.
+* Click download or upload to upload files
   
-The software i used to host the server locally: <a href="https://www.apachefriends.org/download.html">XAMPP</a>
+**The software i used to host the server locally: <a href="https://www.apachefriends.org/download.html">XAMPP</a>**
